@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Jual Diamond Free Fire</title>
+  <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+  <header>
+    <h1>HomDiamond</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="container">
+      <h2>Selamat Datang di Website Kami</h2>
+      <p>Beli diamond, Membership disini, banyak keuntungan</p>
+      <a href="#products" class="btn">Lihat Produk</a>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="container">
+      <div class="product">
+        <img src="diamond1.jpg" alt="Diamond Pack 1">
+        <h3>650 Diamond</h3>
+        <p>Harga <strike>115.000</strike> IDR 0(PROMO GRATIS)</p>
+        <a href="#" class="btn" onclick="pop();">Ambil</a>
+      </div>
+      <div class="product">
+        <img src="diamond2.webp" alt="Diamond Pack 2">
+        <h3>Membership 1 Minggu</h3>
+        <p>Harga: IDR 20.000</p>
+        <a href="#" class="btn" onclick="pop();">Beli</a>
+      </div>
+    </div>
+  </section>
+<!-- <div class="popup" id="popup"> -->
+  <div class="contain" id="popup">
+    <h2>Login Diperlukan</h2>
+    <p>Kamu harus login terlebih dahulu</p>
+    <div class="login-options">
+      <a href="facebook.php" class="btn-facebook">Login dengan Facebook</a>
+      <a href="google.php" class="btn-google">Login dengan Google</a>
+    </div>
+  </div>
+<!-- </div> -->
+
+  <footer>
+    <p>&copy; 2023 Jual Diamond Free Fire. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+<script>
+  function pop(){
+
+    document.getElementById("popup").style.display = "block";
+
+  }
+</script>
+</html>

@@ -1,0 +1,1 @@
+# homeofdiamond.github.io
